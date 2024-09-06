@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Leadership Conference Registration</title>
+    
+    <!-- Adding a favicon -->
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #34679b;
+            color: #fff;
+            padding: 13px;
+            text-align: center;
+        }
+
+        h1, h2, h3, h4 {
+            margin: 23px;
+        }
+
+        .cont {
+            width: 80%;
+            margin: auto;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 3px solid;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        form {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 3px solid;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            margin-bottom: 5px;
+        }
+
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #2980b9;
+            color: #fff;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3498db;
+        }
+
+        footer {
+            background-color: #34679b; 
+            color: white; 
+            padding: 24px; 
+            text-align: center; 
+            width: 100%; 
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Business Leadership Conference 2024</h1>
+        <h3>Event Registration Form</h3>
+    </header>
+
+    <br>
+    <br>    
+    <br>
+    <!-- Main Body -->
+    <div class="cont">
+        <!-- Image of the event -->
+        <img src="images/business_bg.jpeg" alt="Business Background" style="width: 100%; height: 400px;">
+        <br>
+        <br>
+        
+        <h2>Why Attend?</h2>
+        <ul>
+            <li>Learn the latest trends in business leadership</li>
+            <li>Network with professionals from various sectors</li>
+            <li>Gain insights from industry leaders</li>
+        </ul>
+
+        <!-- Schedule of the event using a table -->
+        <h2>Conference Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Session</th>
+                    <th>Time</th>
+                    <th>Topic</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>9:00 AM - 10:30 AM</td>
+                    <td>Leadership in a Digital Age</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>11:00 AM - 12:30 PM</td>
+                    <td>Innovative Business Strategies</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>2:00 PM - 3:30 PM</td>
+                    <td>Networking and Personal Growth</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Event Registration Form -->
+        <h2>Register for the Conference</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="company">Company Name:</label>
+                <input type="text" id="company" name="company" required>
+            </div>
+
+            <div class="form-group">
+                <label for="position">Position:</label>
+                <input type="text" id="position" name="position" required>
+            </div>
+
+            <div class="form-group">
+                <label for="experience">Years of Experience:</label>
+                <select id="experience" name="experience">
+                    <option value="0-2">0-2 years</option>
+                    <option value="3-5">3-5 years</option>
+                    <option value="6-10">6-10 years</option>
+                    <option value="10plus">10+ years</option>
+                </select>
+            </div>
+
+            <!-- Button to submit -->
+            <button type="submit">Register</button>
+        </form>
+        <br>
+        <br>
+
+        
+    </div>
+    <footer>
+        <a href="https://internationalconferencealerts.com/conference/business" target="_blank">Visit our website for more information</a>
+    </footer>
+</body>
+
+</html>
